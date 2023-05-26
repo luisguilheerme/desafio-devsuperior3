@@ -8,7 +8,7 @@ import jakarta.validation.constraints.PastOrPresent;
 public class ClientDTO {
 	
 	private Long id;
-	@NotBlank(message = "Campo Obrigatório")
+	@NotBlank(message = "Campo Nome é obrigatório")
 	private String name;	
 	private String cpf;
 	private Double income;
